@@ -1,0 +1,22 @@
+{
+  "name": "@intizarahmad/js-utility",
+  "version": "1.0.0",
+  "description": "This have many utils functions ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intizarahmad/js-utility.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "Intizar Ahmad <intizarahmad@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intizarahmad/js-utility/issues"
+  },
+  "homepage": "https://github.com/intizarahmad/js-utility#readme"
+}
