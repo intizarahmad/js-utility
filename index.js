@@ -1,15 +1,20 @@
-function log(msg, options = { loudness: 'default' }){
-    if (options && options.loudness) {
-      switch (options.loudness) {
-        case 'shout':
-          if (typeof msg === 'String') console.log(msg.toUpperCase());
-          break;
-        case 'whisper':
-          if (typeof msg === 'String') console.log(msg.toUpperCase());
-          break;
-        default:
-          console.log(msg);
-      }
+function log(msg, options = { case: 'default' }){
+  if (options && options.case) {
+    switch (options.case) {
+      case 'upper':
+        if (typeof msg === 'string') {
+          console.log(msg.toUpperCase());
+        }  
+        break;
+      case 'lower':
+        if (typeof msg === 'string'){
+          console.log(msg.toLowerCase());
+        } 
+        break;
+      default:
+        console.log(msg);
     }
-  };
-  module.exports = log;
+  }
+};
+
+module.exports = log;
