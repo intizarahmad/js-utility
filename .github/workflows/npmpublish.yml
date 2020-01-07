@@ -1,4 +1,4 @@
-name: Node.js Package
+name: 'Build, Lint, Test and Deploy if master'
 
 on:
   release:
